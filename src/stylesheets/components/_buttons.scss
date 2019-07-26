@@ -1,0 +1,54 @@
+.button {
+  background-color: transparent;
+  border: none;
+
+  &-close {
+    position: relative;
+    top: -13px;
+    right: 3px;
+
+    width: 30px;
+    height: 30px;
+    float: right;
+  
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+
+      width: 25px;
+      height: 25px;
+
+      border-left: 2px solid #fff;
+    }
+
+    &:before {
+      transform: rotate(45deg)
+    }
+
+    &:after {
+      top: -17px;
+      transform: rotate(-45deg)
+    }
+  }
+  
+  &-modal {
+    display: block;
+    margin: 30px auto;
+
+    width: 30%;
+    padding: 20px;
+
+    font-size: 20px;
+
+    background-color: #cecece;
+    border-radius: 6px;
+  }
+
+  @include respond-to(sm-down) {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}

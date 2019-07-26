@@ -1,0 +1,9 @@
+@include font-face($font-opensans, $base-url + 'fonts/', 'opensans-regular', 'opensans-regular');
+@include font-face($font-arial, $base-url + 'fonts/', 'ArialMT', 'ArialMT');
+@include font-face($font-gotham, $base-url + 'fonts/', 'Gotham-Medium', 'Gotham-Medium');
+
+@include font-face($font-roboto, $base-url + 'fonts/', 'Roboto-Thin', 'Roboto-Thin', 200);
+@include font-face($font-roboto, $base-url + 'fonts/', 'Roboto-Regular', 'Roboto-Regular', 400);
+@include font-face($font-roboto, $base-url + 'fonts/', 'Roboto-Medium', 'Roboto-Medium', 500);
+@include font-face($font-roboto, $base-url + 'fonts/', 'Roboto-MediumItalic', 'Roboto-MediumItalic', 550);
+@include font-face($font-roboto, $base-url + 'fonts/', 'Roboto-Bold', 'Roboto-Bold', 700);

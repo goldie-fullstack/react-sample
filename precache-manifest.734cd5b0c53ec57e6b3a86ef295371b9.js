@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c73ae7b4a5b3c782459d91ed87de75a",
+    "revision": "b7f734c9f2e97729b214114fd173765b",
     "url": "/react-sample/index.html"
   },
   {
-    "revision": "370ccedc9f9b548df1ee",
-    "url": "/react-sample/static/css/main.0c5d84d0.chunk.css"
+    "revision": "3ea8963d8c6c2815f46a",
+    "url": "/react-sample/static/css/main.94401275.chunk.css"
   },
   {
-    "revision": "40beb5c679f12f219c87",
-    "url": "/react-sample/static/js/2.250d1475.chunk.js"
+    "revision": "13b9812d91697e13d2ea",
+    "url": "/react-sample/static/js/2.f1136be9.chunk.js"
   },
   {
-    "revision": "370ccedc9f9b548df1ee",
-    "url": "/react-sample/static/js/main.65a020d9.chunk.js"
+    "revision": "3ea8963d8c6c2815f46a",
+    "url": "/react-sample/static/js/main.a18d0588.chunk.js"
   },
   {
     "revision": "885a3f7248e53918799c",
@@ -200,6 +200,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-sample/static/media/home-banner.f959ac17.png"
   },
   {
+    "revision": "b98b0a567d2e7102071ff038ac9cc599",
+    "url": "/react-sample/static/media/icon-angle-down.b98b0a56.png"
+  },
+  {
+    "revision": "4c7b8f9cc6045663b622a157c071fc17",
+    "url": "/react-sample/static/media/icon-dollar.4c7b8f9c.png"
+  },
+  {
+    "revision": "fc18d9f03363f3b0a1210792aea8f447",
+    "url": "/react-sample/static/media/icon-green-arrow.fc18d9f0.png"
+  },
+  {
+    "revision": "888b107a42c1750bf174dfc32e8db61c",
+    "url": "/react-sample/static/media/icon-green-bag.888b107a.png"
+  },
+  {
+    "revision": "f4ffdc9ea497d4f75076170b03d107e1",
+    "url": "/react-sample/static/media/icon-shopping-bag.f4ffdc9e.png"
+  },
+  {
+    "revision": "391fa8f4ad1e634798d3365b29b86bdb",
+    "url": "/react-sample/static/media/logo.391fa8f4.png"
+  },
+  {
     "revision": "a35546eef3ea0de0d4735f23b0a0873b",
     "url": "/react-sample/static/media/opensans-regular.a35546ee.eot"
   },
@@ -214,5 +238,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cd7296352d159532b66c07d98efb1126",
     "url": "/react-sample/static/media/opensans-regular.cd729635.ttf"
+  },
+  {
+    "revision": "f15f0c7ed3535a06698d1adc2c8a9be2",
+    "url": "/react-sample/static/media/product-four.f15f0c7e.png"
+  },
+  {
+    "revision": "7c0d0e7e620fccaaff86160e819aa0b2",
+    "url": "/react-sample/static/media/product-one.7c0d0e7e.png"
+  },
+  {
+    "revision": "0916f7f68d0eece837e22d087fedd28c",
+    "url": "/react-sample/static/media/product-three.0916f7f6.png"
+  },
+  {
+    "revision": "ac952e45e00a04311c172ed0fa771028",
+    "url": "/react-sample/static/media/product-two.ac952e45.png"
   }
 ]);

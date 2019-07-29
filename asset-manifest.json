@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/react-sample/static/css/main.0c5d84d0.chunk.css",
-    "main.js": "/react-sample/static/js/main.65a020d9.chunk.js",
-    "main.js.map": "/react-sample/static/js/main.65a020d9.chunk.js.map",
+    "main.css": "/react-sample/static/css/main.94401275.chunk.css",
+    "main.js": "/react-sample/static/js/main.a18d0588.chunk.js",
+    "main.js.map": "/react-sample/static/js/main.a18d0588.chunk.js.map",
     "runtime~main.js": "/react-sample/static/js/runtime~main.59592c43.js",
     "runtime~main.js.map": "/react-sample/static/js/runtime~main.59592c43.js.map",
-    "static/js/2.250d1475.chunk.js": "/react-sample/static/js/2.250d1475.chunk.js",
-    "static/js/2.250d1475.chunk.js.map": "/react-sample/static/js/2.250d1475.chunk.js.map",
+    "static/js/2.f1136be9.chunk.js": "/react-sample/static/js/2.f1136be9.chunk.js",
+    "static/js/2.f1136be9.chunk.js.map": "/react-sample/static/js/2.f1136be9.chunk.js.map",
     "index.html": "/react-sample/index.html",
-    "precache-manifest.a46ccc117c2fcf2d3e8bc65d9063db56.js": "/react-sample/precache-manifest.a46ccc117c2fcf2d3e8bc65d9063db56.js",
+    "precache-manifest.734cd5b0c53ec57e6b3a86ef295371b9.js": "/react-sample/precache-manifest.734cd5b0c53ec57e6b3a86ef295371b9.js",
     "service-worker.js": "/react-sample/service-worker.js",
-    "static/css/main.0c5d84d0.chunk.css.map": "/react-sample/static/css/main.0c5d84d0.chunk.css.map",
+    "static/css/main.94401275.chunk.css.map": "/react-sample/static/css/main.94401275.chunk.css.map",
     "static/media/main.scss": "/react-sample/static/media/opensans-regular.cd729635.ttf",
-    "static/media/home-banner.png": "/react-sample/static/media/home-banner.f959ac17.png"
+    "static/media/home-banner.png": "/react-sample/static/media/home-banner.f959ac17.png",
+    "static/media/icon-dollar.png": "/react-sample/static/media/icon-dollar.4c7b8f9c.png",
+    "static/media/icon-green-arrow.png": "/react-sample/static/media/icon-green-arrow.fc18d9f0.png",
+    "static/media/icon-green-bag.png": "/react-sample/static/media/icon-green-bag.888b107a.png",
+    "static/media/icon-shopping-bag.png": "/react-sample/static/media/icon-shopping-bag.f4ffdc9e.png",
+    "static/media/logo.png": "/react-sample/static/media/logo.391fa8f4.png",
+    "static/media/product-four.png": "/react-sample/static/media/product-four.f15f0c7e.png",
+    "static/media/product-one.png": "/react-sample/static/media/product-one.7c0d0e7e.png",
+    "static/media/product-three.png": "/react-sample/static/media/product-three.0916f7f6.png",
+    "static/media/product-two.png": "/react-sample/static/media/product-two.ac952e45.png"
   }
 }

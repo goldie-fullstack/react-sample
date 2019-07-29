@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import classnames from 'classnames'
 
+import logoImage from '../assets/images/logo.png'
+import ShoppingBag from '../assets/images/icon-shopping-bag.png'
+import IconDollar from '../assets/images/icon-dollar.png'
  export default class Header extends Component {
   state = {
     isMenuOpen: false
@@ -20,8 +23,26 @@ import classnames from 'classnames'
     const { isMenuOpen } = this.state
 
     return (
-      <div>
-        <button className="js-openMenu button button-modal" onClick={this.onClickMenu}>Open Menu</button>
+      <header className="header">
+        <div className="fixed-header">
+          <div className="container-custom">
+            <div className="holder-logo"> 
+              <img src={logoImage} alt="" className="image-logo"/>
+            </div>
+
+            <div className="holder-burger">
+              <span className="icon-currency"><img src={IconDollar} alt="" className="image-shoppingbag"/></span>
+
+              <span className="icon-bag"><img src={ShoppingBag} alt="" className="image-shoppingbag"/></span>
+              
+              <button className="js-openMenu button button-burger" onClick={this.onClickMenu}>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+            </div>
+          </div>
+        </div>
 
         <div className={classnames('menu-collapse', {'open-menu': isMenuOpen })} >
 
@@ -57,7 +78,7 @@ import classnames from 'classnames'
             </div>
           </div>
         </div>
-      </div>
+      </header>
     )
   }
 

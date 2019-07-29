@@ -33,17 +33,40 @@
     }
   }
   
-  &-modal {
-    display: block;
-    margin: 30px auto;
+  &-burger {
+    position: relative;
+    right: 17px;
+    top: 19px;
 
-    width: 30%;
-    padding: 20px;
+    .icon-bar {
+      &:before {
+        position: absolute;
 
-    font-size: 20px;
+        width: 22px;
+        height: 2px;
 
-    background-color: #cecece;
-    border-radius: 6px;
+        border-bottom: 2px solid #fff;
+        content: '';
+      }
+
+      &:nth-child(1) {
+        &:before {
+          top: -16px;
+        }
+      }
+
+      &:nth-child(2) {
+        &:before {
+          top: -9px;
+        }
+      }
+
+      &:nth-child(3) {
+        &:before {
+          top: -1px;
+        }
+      }
+    } 
   }
 
   @include respond-to(sm-down) {
